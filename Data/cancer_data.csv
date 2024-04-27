@@ -1,0 +1,901 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2006,0.128781277,0.141667477,0.122279308
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2007,0.128862074,0.141622743,0.122517542
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2005,0.129131623,0.142223517,0.122301731
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2004,0.129331401,0.14127052,0.122860795
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2003,0.129441765,0.141621942,0.12259937
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2008,0.129472541,0.143345547,0.122808952
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2002,0.130110349,0.142345555,0.123366084
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2009,0.130396116,0.143852242,0.123858712
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2010,0.130704746,0.144048665,0.124374297
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2001,0.130807485,0.142441384,0.123739555
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2011,0.131149643,0.144317552,0.124876822
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1993,0.131475504,0.143975099,0.124019513
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1994,0.131564694,0.145075981,0.123963327
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1998,0.131654363,0.143308272,0.124893968
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1995,0.131697087,0.145234243,0.124484519
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1997,0.131726007,0.143089369,0.124782343
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1996,0.131815747,0.144378146,0.124789673
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2012,0.132063269,0.144611923,0.125434318
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1999,0.132211161,0.144323644,0.125235195
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2000,0.132226729,0.144735123,0.125176613
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1992,0.132266191,0.144081808,0.124714777
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2013,0.132944675,0.144563519,0.126432428
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1991,0.133438486,0.14552653,0.125605174
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2014,0.134480768,0.145137394,0.127933917
+Deaths,Global,Both,All ages,Testicular cancer,Rate,1990,0.135035123,0.147779019,0.126960496
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2015,0.135624667,0.146203465,0.129022235
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2016,0.13666547,0.146971722,0.128706522
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2017,0.137673954,0.148739625,0.129125816
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2018,0.139132438,0.152760702,0.129360836
+Deaths,Global,Both,All ages,Testicular cancer,Rate,2019,0.140124186,0.153826689,0.128734597
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1990,0.287586144,0.318085549,0.258231698
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1991,0.288212911,0.32024579,0.25959443
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1992,0.29011905,0.321237563,0.261605367
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1993,0.293494017,0.32409113,0.265181953
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1994,0.295195264,0.326639682,0.267041503
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1995,0.296062831,0.325718,0.26825029
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1996,0.296083658,0.323189076,0.269189947
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1997,0.296196024,0.323167351,0.270986598
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1998,0.296353114,0.322764827,0.271432381
+Deaths,Global,Both,All ages,Mesothelioma,Rate,1999,0.300069468,0.326177953,0.274478898
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2000,0.303527259,0.327728202,0.278040125
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2001,0.306132021,0.330200176,0.280601476
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2002,0.31103451,0.334565437,0.285382431
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2003,0.31513286,0.338866019,0.289765693
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2004,0.316488399,0.339100261,0.290353234
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2005,0.321470182,0.343148498,0.295086653
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2006,0.325143715,0.346724245,0.298407688
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2007,0.330203123,0.351221056,0.302657319
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2008,0.33809944,0.358625061,0.310489545
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2009,0.343731228,0.363546762,0.314456464
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2010,0.35081759,0.370887896,0.321701752
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2019,0.356084216,0.411151262,0.306105393
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2018,0.356422915,0.412730318,0.305489724
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2017,0.356589101,0.413724811,0.309800243
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2011,0.357453735,0.376985271,0.327344232
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2016,0.357959404,0.414682603,0.309845951
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2015,0.359333781,0.415549397,0.312745482
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2014,0.359747893,0.417887614,0.310306407
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2012,0.36232272,0.38236774,0.332499997
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2013,0.362737498,0.417896888,0.314224887
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2013,0.365156567,0.385082159,0.333975109
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2012,0.366080783,0.423837989,0.317788038
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2014,0.367379995,0.387379796,0.336566181
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2011,0.370239181,0.430338875,0.321067949
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2015,0.370574391,0.390484178,0.341168023
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2010,0.372467801,0.434232842,0.323047974
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2016,0.37301482,0.393632808,0.34397567
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2017,0.374186807,0.394377816,0.344601836
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2018,0.375764776,0.39712565,0.342874994
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2009,0.375835292,0.43568283,0.329355609
+Deaths,Global,Both,All ages,Mesothelioma,Rate,2019,0.378044275,0.400720162,0.344657074
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2008,0.381109222,0.444244792,0.333168715
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2007,0.38342003,0.448716329,0.336308367
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2006,0.389147692,0.450733472,0.339415122
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2005,0.394773457,0.457465735,0.343897027
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2004,0.400108893,0.461638714,0.348810272
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2003,0.407732059,0.467778695,0.352679792
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2002,0.41692196,0.47092593,0.355482566
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1990,0.424384371,0.599493171,0.355329117
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2001,0.426574042,0.477629115,0.359251339
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1991,0.42892434,0.600942848,0.361970091
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1990,0.429290311,0.471559251,0.402885418
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1991,0.431219457,0.475142537,0.404635003
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1990,0.434070482,0.456765206,0.400770085
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1992,0.434817308,0.611211181,0.366697963
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1992,0.435221711,0.476228005,0.409001889
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1991,0.436742453,0.460672559,0.404739767
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,2000,0.436812811,0.481478024,0.363891824
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1993,0.440693638,0.484574175,0.414136968
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1992,0.441820503,0.46470362,0.408986958
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1993,0.442705273,0.617147294,0.37386153
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1999,0.444505996,0.485450631,0.367920722
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1994,0.444735323,0.485615008,0.418655116
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1995,0.447225511,0.490647208,0.420128335
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1993,0.44758947,0.469670111,0.418200738
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1994,0.449026033,0.622719167,0.380927688
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1996,0.449029924,0.487470754,0.421574068
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1998,0.450916716,0.490136791,0.369189495
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1994,0.451197572,0.472902122,0.420711813
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1997,0.452176398,0.488911975,0.422995604
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1995,0.453390064,0.474446872,0.423086793
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1998,0.456059607,0.492948909,0.427887631
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1995,0.456356788,0.628193777,0.388160878
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1996,0.457519303,0.477992314,0.426434205
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1997,0.460261385,0.498695265,0.376186943
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,1999,0.460935391,0.496518273,0.429670448
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1997,0.461289992,0.482496723,0.430257593
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1996,0.46304717,0.631723675,0.394843574
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2000,0.465441193,0.499628152,0.433835383
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1998,0.46848096,0.488666222,0.435874067
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2001,0.469247541,0.498182701,0.436658838
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1997,0.470653811,0.635667955,0.400283658
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1996,0.470886197,0.508199119,0.382623101
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2002,0.475498646,0.507378185,0.443064331
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,1999,0.476331459,0.49718704,0.44368319
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1998,0.47967194,0.640340153,0.406414133
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2003,0.48067394,0.509012798,0.446788651
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1995,0.48206384,0.519447238,0.387861455
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2004,0.483675607,0.5098009,0.44621024
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2000,0.487503063,0.507963515,0.454976777
+Deaths,Global,Both,All ages,Other neoplasms,Rate,1999,0.489979343,0.648934346,0.417439102
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1994,0.490546885,0.529725543,0.392582474
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2005,0.492773046,0.519831798,0.454635098
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1993,0.496913631,0.538488707,0.395113148
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2000,0.498950094,0.655281052,0.423757318
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2006,0.499962068,0.524969096,0.460332702
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2001,0.501475307,0.52315082,0.468424405
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1992,0.503700801,0.549296903,0.397741581
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2007,0.506990264,0.531060338,0.466672365
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2001,0.508246254,0.66623231,0.430906673
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1991,0.510198288,0.556416985,0.401144551
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2002,0.514865854,0.537171333,0.47913542
+Deaths,Global,Both,All ages,Hodgkin lymphoma,Rate,1990,0.515941706,0.565155614,0.404934706
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2008,0.517241954,0.541746249,0.475117103
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2002,0.51756875,0.675990522,0.439742959
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2009,0.523878863,0.547741313,0.473755596
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2003,0.525224624,0.547356904,0.490239596
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2003,0.526266252,0.687798198,0.446973812
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2004,0.532451629,0.693580012,0.450055983
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2010,0.533372801,0.557540882,0.483691497
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2004,0.535089972,0.559020101,0.496612502
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2011,0.539068835,0.564589409,0.48599884
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2005,0.543619508,0.707147185,0.459293655
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2012,0.544250444,0.569589734,0.490382306
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2005,0.546784657,0.571082318,0.505392549
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2013,0.549360588,0.574001969,0.494015703
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2014,0.551563885,0.577323261,0.499394943
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2006,0.554664873,0.714972118,0.468424209
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2006,0.557486387,0.581927657,0.517063599
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2015,0.558474341,0.585724691,0.506700684
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2016,0.565042298,0.594676738,0.51130151
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2007,0.567012717,0.730410915,0.475276234
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2017,0.570205516,0.603059125,0.51330429
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2007,0.570561149,0.595269917,0.523881016
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2018,0.579411006,0.617446091,0.525865654
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2008,0.581293152,0.747666902,0.485922174
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2008,0.58609196,0.613678882,0.536755579
+Deaths,Global,Both,All ages,Thyroid cancer,Rate,2019,0.589029589,0.630378796,0.533632321
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2009,0.593563007,0.758632117,0.49422764
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2009,0.602028306,0.629067504,0.552809698
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2010,0.609136155,0.775044914,0.504195352
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1990,0.618390728,0.805514254,0.520147832
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2010,0.61966671,0.64768513,0.563052437
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1991,0.624300996,0.807344517,0.524866262
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2011,0.62529955,0.787785257,0.516024794
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1992,0.633193379,0.813025402,0.531841377
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2011,0.636372329,0.66609824,0.579422671
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2012,0.640560292,0.808701352,0.527426094
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1993,0.649731763,0.821893682,0.543436372
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2012,0.650075854,0.682398552,0.594400216
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2013,0.655178373,0.823735313,0.53683656
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1994,0.660572994,0.830482188,0.551523377
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2013,0.663354096,0.696170718,0.602085121
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1996,0.666772643,0.826074062,0.550548076
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1995,0.666796173,0.833562235,0.551456297
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1997,0.667371043,0.819266356,0.54833855
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2014,0.669131534,0.833660246,0.548070712
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1998,0.671112821,0.816485193,0.54964953
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2014,0.674658687,0.710849191,0.609125815
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,1999,0.67978822,0.823528393,0.552917055
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2015,0.685142213,0.851593418,0.561262589
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2000,0.685782784,0.826363156,0.554889045
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2015,0.686987551,0.724197322,0.621419142
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2001,0.69195296,0.824368744,0.555401513
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2016,0.696698451,0.737753513,0.628352698
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2016,0.698128907,0.86466449,0.571404266
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2002,0.700254011,0.834801975,0.55869277
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2017,0.702403973,0.742286033,0.632786412
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2003,0.70684811,0.840885933,0.562011084
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2017,0.707032181,0.878339006,0.582393634
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2004,0.711970152,0.834581363,0.557712597
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2018,0.712243359,0.75694276,0.639492033
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2018,0.719595,0.90241653,0.59053846
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2005,0.723867691,0.840381867,0.560296218
+Deaths,Global,Both,All ages,Non-melanoma skin cancer,Rate,2019,0.724443462,0.772764521,0.651568038
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2006,0.727443961,0.835157231,0.557274443
+Deaths,Global,Both,All ages,Other neoplasms,Rate,2019,0.734523343,0.910916328,0.602078979
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2007,0.735411276,0.836146698,0.556660018
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2008,0.747090064,0.841214915,0.557992688
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2009,0.754411719,0.84143466,0.558832124
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2010,0.763634666,0.842572475,0.562410264
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2011,0.768019327,0.845258385,0.564433934
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2012,0.773745765,0.849939673,0.564310169
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2013,0.779637125,0.857301665,0.568105605
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2014,0.783378928,0.865021313,0.574739329
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2015,0.793491963,0.882541912,0.578576056
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2016,0.794372062,0.889197589,0.585896131
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2017,0.795976005,0.892198764,0.589277074
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2018,0.804342276,0.909434269,0.591110365
+Deaths,Global,Both,All ages,Malignant skin melanoma,Rate,2019,0.812198713,0.917621923,0.598606275
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2009,0.880371878,0.929035027,0.833212757
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2012,0.881226552,0.938081024,0.831009229
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2010,0.88259052,0.933588936,0.835405621
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2011,0.883055648,0.937183952,0.834138533
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2008,0.883851637,0.933409538,0.838618204
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2013,0.884247884,0.940617843,0.834577379
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2014,0.885027376,0.937836871,0.831456893
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2007,0.88574027,0.932346861,0.841548204
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2006,0.887287173,0.935613892,0.843822451
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2015,0.895623082,0.951772872,0.841989553
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2005,0.897187616,0.951478458,0.85003281
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2004,0.901307801,0.952750298,0.852017333
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2016,0.904889875,0.974034486,0.845641361
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2017,0.908801126,0.976355295,0.842496601
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2003,0.912385299,0.963837738,0.862805063
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2018,0.915732589,0.995609365,0.843124904
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2019,0.92550328,1.00323064,0.84578107
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2002,0.925875924,0.978168681,0.876197243
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2001,0.940367972,0.99593014,0.886276993
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,2000,0.958545283,1.010574612,0.901956487
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1990,0.961888808,1.055297094,0.896728448
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1999,0.966822606,1.019771116,0.910424409
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1997,0.968522753,1.023333432,0.912377413
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1998,0.968769022,1.02181012,0.912117213
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1990,0.969416218,1.102459658,0.891798988
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1996,0.971328247,1.025089999,0.913126036
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1991,0.971572513,1.059551923,0.903372126
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1995,0.978546933,1.038661505,0.921838578
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1991,0.982336725,1.111771128,0.904818753
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1992,0.983030927,1.072690002,0.916116879
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1994,0.98342585,1.048507045,0.918666567
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1993,0.990819725,1.063216682,0.923064023
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1992,0.994462871,1.068422989,0.918456509
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1992,0.998506799,1.1236697,0.914281001
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1990,0.999258576,1.082383203,0.913573299
+Deaths,Global,Both,All ages,Nasopharynx cancer,Rate,1991,0.99933733,1.083463452,0.92017286
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1993,1.002885629,1.087027414,0.940849546
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1994,1.017508737,1.09265392,0.960910486
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1993,1.018697262,1.142880088,0.938864817
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1995,1.021033454,1.096822361,0.966474649
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1996,1.036052382,1.11289904,0.977852979
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1994,1.037396001,1.163062715,0.940723318
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1991,1.045327602,1.123316494,0.949271941
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1992,1.046967567,1.123289949,0.951660696
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1990,1.049187988,1.125237647,0.955240121
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1995,1.054108304,1.172014319,0.957101815
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1996,1.055758125,1.117675372,0.95364697
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1997,1.05640276,1.120649228,0.957833209
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1995,1.058023375,1.131447884,0.966228294
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1997,1.060319831,1.136661506,1.002429825
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1998,1.060416439,1.119816796,0.953949891
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1993,1.061728554,1.133032301,0.96712755
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1994,1.066167176,1.142654071,0.979522833
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1996,1.069429152,1.174168056,0.96856162
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1998,1.07130154,1.139661183,1.016418377
+Deaths,Global,Both,All ages,Uterine cancer,Rate,1999,1.076511391,1.140817253,0.966725146
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,1999,1.07793386,1.139824968,1.022155578
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2000,1.08418644,1.149825217,0.969300855
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1997,1.086646778,1.188869704,0.978857269
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2000,1.089726447,1.154925514,1.034665511
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2001,1.090630149,1.159012533,0.977596834
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2001,1.101844085,1.157245841,1.047501329
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2002,1.102612256,1.17065697,0.983309122
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1998,1.104824888,1.202883697,0.990299557
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2004,1.113579393,1.176326564,0.983741862
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2003,1.114098386,1.185427538,0.992911337
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2006,1.115723917,1.178212219,0.981453077
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2002,1.115836773,1.17407379,1.064290703
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2007,1.117200068,1.180769166,0.973560948
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2004,1.11754957,1.170952026,1.060963692
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2005,1.121051615,1.185597477,0.982315831
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,1999,1.12111694,1.216268542,1.002272938
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2003,1.123052414,1.17693197,1.070018182
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2008,1.129901191,1.193783837,0.983843407
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2009,1.132704341,1.197097116,0.983130643
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2000,1.134614734,1.228267631,1.015103402
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2014,1.137138042,1.23349761,1.037554974
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2010,1.138801837,1.203116466,0.991069148
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2013,1.140704338,1.216127603,1.027705102
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2011,1.142032438,1.212294287,1.007978762
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2012,1.142598394,1.212789941,1.017991085
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2005,1.146114949,1.200844954,1.090457971
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2001,1.14621643,1.240196799,1.026693077
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2015,1.150199975,1.272289223,1.051130469
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2017,1.155394876,1.280150622,1.05509901
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2016,1.155689055,1.270320968,1.05941162
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2002,1.160700665,1.254672502,1.04050849
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2006,1.165202107,1.219021747,1.115056639
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2018,1.168415204,1.296358238,1.070162547
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2003,1.170833829,1.2665772,1.048647375
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2004,1.175705389,1.258447591,1.056075988
+Deaths,Global,Both,All ages,Uterine cancer,Rate,2019,1.184376492,1.31182598,1.064808735
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2005,1.186616082,1.283071972,1.061977556
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2007,1.19267371,1.246608733,1.138544974
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2006,1.19476908,1.281693379,1.063343188
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2007,1.207835986,1.295917237,1.067342054
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2008,1.224757074,1.314082921,1.0808496
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2008,1.226263558,1.285296746,1.16939616
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2009,1.227307459,1.281252024,1.168197825
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2009,1.239354958,1.327888204,1.098455624
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2010,1.251736792,1.312242635,1.191914698
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2010,1.260638666,1.347306662,1.109751848
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2011,1.27438845,1.336666919,1.211375688
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2011,1.278211161,1.364641341,1.12073381
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2012,1.284391647,1.348673082,1.224905725
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2012,1.297505217,1.386076088,1.141712859
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2013,1.308703808,1.371609535,1.249423822
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2013,1.316801225,1.404102175,1.161839712
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2014,1.326878073,1.396718037,1.263085774
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2014,1.33773693,1.427361362,1.173967224
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1990,1.347700167,1.395808176,1.287443114
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2015,1.36414329,1.461194989,1.199052508
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1991,1.369544027,1.415523803,1.310436909
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2015,1.372434724,1.446911506,1.302950161
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2016,1.386488468,1.477289055,1.216482908
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1992,1.397466052,1.445217109,1.343279125
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2016,1.403285562,1.49647879,1.318792095
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2017,1.407940833,1.50881734,1.236129864
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2017,1.421207092,1.532126751,1.314874232
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2018,1.436031029,1.540785728,1.257976632
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1993,1.438377925,1.485165184,1.388120766
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2018,1.44858337,1.586255374,1.327639355
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1994,1.46555623,1.511504776,1.41267902
+Deaths,Global,Both,All ages,Multiple myeloma,Rate,2019,1.466557348,1.57331943,1.286305776
+Deaths,Global,Both,All ages,Other pharynx cancer,Rate,2019,1.476022505,1.628949232,1.333170777
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1995,1.47944827,1.527466759,1.425207668
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2007,1.484930461,1.539269079,1.430109511
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1996,1.485926861,1.529314602,1.431650018
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2006,1.4862093,1.543316458,1.433192209
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2009,1.493605033,1.553039875,1.432504374
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1997,1.497537929,1.539471032,1.442148028
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2004,1.497805993,1.552007106,1.438042161
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2008,1.498637995,1.560549222,1.443762756
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2005,1.500354729,1.560782768,1.44153367
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2010,1.504537792,1.563397974,1.442169912
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2011,1.506326874,1.575361063,1.439721578
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2012,1.51569077,1.580864661,1.455403532
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2014,1.516949411,1.583094598,1.449517798
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2013,1.517384045,1.584621339,1.450563198
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1998,1.518182213,1.558500551,1.461886324
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2003,1.528323443,1.585228994,1.470091326
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2015,1.537669225,1.601752434,1.465800333
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2002,1.542714357,1.597208904,1.482443595
+Deaths,Global,Both,All ages,Kidney cancer,Rate,1999,1.547495905,1.588800649,1.491055203
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2001,1.550043164,1.603542965,1.491804981
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2016,1.552792632,1.63044415,1.473110483
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2017,1.559300472,1.647665995,1.470620855
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2000,1.565565099,1.619719159,1.504529549
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2018,1.574930785,1.684940136,1.469916705
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2000,1.576189733,1.61739323,1.516357714
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1999,1.576514987,1.630258908,1.511903978
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1998,1.594098263,1.657493609,1.530408855
+Deaths,Global,Both,All ages,Larynx cancer,Rate,2019,1.594263701,1.716304231,1.485517583
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2001,1.599824905,1.64197742,1.538989136
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1997,1.616335503,1.67571156,1.553344478
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1996,1.62750385,1.691214353,1.562271706
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1990,1.634786022,1.711280931,1.554841342
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1991,1.637148099,1.717895516,1.557581079
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2002,1.63728411,1.680265455,1.573200109
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1992,1.640003691,1.720087498,1.566034069
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1995,1.647183549,1.711258408,1.583625054
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1993,1.661290481,1.733722519,1.59074595
+Deaths,Global,Both,All ages,Larynx cancer,Rate,1994,1.666440414,1.736296206,1.595769656
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2003,1.675803511,1.724239136,1.610585092
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2004,1.705731439,1.750527727,1.635761934
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2005,1.747112871,1.796974356,1.675695907
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2006,1.76214549,1.81161939,1.684297344
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1991,1.772166442,1.99831219,1.591975081
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1990,1.773042329,2.004549515,1.59143171
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1996,1.773962689,1.993330437,1.585095547
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1992,1.774740457,1.998648025,1.591293554
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1995,1.776239446,2.000838854,1.586048427
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1997,1.781893337,1.982546184,1.598402728
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1994,1.783195701,1.993484018,1.594910549
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1993,1.783678423,2.020220402,1.59083522
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2007,1.787894597,1.836797793,1.710214876
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1998,1.794213057,1.988826893,1.611881789
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1990,1.806173422,1.926224287,1.693361865
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,1999,1.817713332,1.992904696,1.632935112
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1991,1.819224364,1.934234026,1.715163217
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1990,1.819926553,2.051661989,1.676738185
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2008,1.825877347,1.881644396,1.744523258
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1991,1.828758206,2.047458398,1.694860304
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1992,1.837284164,1.944846617,1.730491108
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2000,1.840365201,2.000935641,1.656267267
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1992,1.842133733,2.063538379,1.716141774
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2009,1.851924427,1.907162612,1.762819178
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2001,1.858991284,2.009208975,1.660978535
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1993,1.859080437,2.077916964,1.739474306
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1993,1.875264378,1.985028882,1.765027049
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1994,1.875839912,2.080908053,1.752312637
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2010,1.888883041,1.946086759,1.795427832
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2002,1.894428632,2.028505253,1.68597768
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1994,1.905137593,2.007120643,1.806222011
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2011,1.909702145,1.971536728,1.809972355
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1995,1.91035148,2.106476399,1.794567129
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1995,1.915999376,2.010504193,1.818203196
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1996,1.918747582,2.115048158,1.807914036
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1996,1.928505457,2.017670801,1.832486648
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2003,1.931576573,2.053300764,1.7106635
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1997,1.932208026,2.127727782,1.814479684
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2012,1.935473743,1.999897007,1.837795561
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1998,1.944707991,2.140169212,1.825348962
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2004,1.950351525,2.069129425,1.716692354
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1997,1.954559653,2.046167082,1.859548763
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2013,1.955967232,2.025877551,1.84965409
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,1999,1.960476092,2.145774482,1.837432287
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1998,1.964855163,2.053892339,1.870741905
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2014,1.976583244,2.04784346,1.864407936
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,1999,1.978239697,2.063069531,1.884313138
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2005,1.983189273,2.105408502,1.733447272
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2006,1.991574433,2.112643309,1.730640096
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2000,1.992084745,2.172264014,1.86930172
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2000,1.998745922,2.084610784,1.907025413
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2007,2.008365054,2.125427105,1.728530946
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2001,2.01426492,2.199068169,1.890224994
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2001,2.014472419,2.1000718,1.925232182
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2015,2.014662613,2.088811602,1.904161245
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2008,2.021991014,2.146332207,1.746834964
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2009,2.026352138,2.145170343,1.728657017
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2002,2.03561523,2.120306877,1.944513332
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2016,2.038125224,2.123809504,1.924320246
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2002,2.040990375,2.218063745,1.915032967
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2010,2.043338478,2.168254764,1.731315482
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2004,2.052940155,2.136754796,1.963313323
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2003,2.054405138,2.144031786,1.96248329
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2003,2.057568575,2.241573954,1.929346012
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2011,2.058492213,2.18328033,1.74479063
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2017,2.059856782,2.156915481,1.944415874
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2012,2.069410468,2.200339061,1.748982124
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2004,2.076862536,2.254407007,1.95016633
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2013,2.079940193,2.211388722,1.756737817
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2014,2.087411332,2.22453882,1.776482738
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2005,2.09089943,2.257567536,1.958642452
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2005,2.097199248,2.177899055,2.009817805
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2018,2.104154742,2.224764515,1.975048262
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2006,2.108685135,2.288135115,1.973226491
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2015,2.109150026,2.251534517,1.786153718
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2006,2.114283078,2.199049986,2.033926431
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2007,2.132368283,2.302608101,1.992933082
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2016,2.134714436,2.294277716,1.818619046
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2007,2.146964506,2.235903303,2.066486215
+Deaths,Global,Both,All ages,Kidney cancer,Rate,2019,2.151061518,2.278550962,2.009200561
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2017,2.157440443,2.32603879,1.815012124
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2008,2.161837358,2.340841425,2.012074357
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2008,2.188252184,2.285119861,2.092679084
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2018,2.191775947,2.382667352,1.838542843
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2009,2.19209166,2.364471738,2.040500086
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2010,2.196207716,2.35557172,2.028935054
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2009,2.213909262,2.301542671,2.115972279
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2011,2.221489905,2.396218938,2.047293023
+Deaths,Global,Both,All ages,Gallbladder and biliary tract cancer,Rate,2019,2.228646734,2.437688575,1.872691554
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2010,2.251047757,2.346839589,2.154504764
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2012,2.258384398,2.430871424,2.082353128
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1990,2.271083939,2.377094635,2.144946384
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2011,2.283942906,2.394529994,2.182056442
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1991,2.28543789,2.385713452,2.162634264
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2013,2.295626758,2.469488934,2.108091405
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1992,2.303218435,2.404569683,2.178928384
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2012,2.321842136,2.425268134,2.219069649
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1993,2.336345325,2.426578337,2.217579798
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2014,2.343484768,2.523178928,2.139049969
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1994,2.355516626,2.441734496,2.238501065
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1990,2.356742845,2.466914957,2.238722932
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2013,2.357088752,2.474045214,2.237625402
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2015,2.362442754,2.554706644,2.153254069
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1995,2.366683778,2.455875922,2.245331833
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1996,2.36858493,2.457015372,2.256183599
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1997,2.370208385,2.454739843,2.257612786
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1998,2.37861398,2.467780369,2.25666033
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2014,2.381666539,2.505208904,2.251988842
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1991,2.392536358,2.500345661,2.271025047
+Deaths,Global,Both,All ages,Bladder cancer,Rate,1999,2.39916181,2.481056929,2.28065425
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2016,2.402448828,2.598852319,2.169469969
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2000,2.409888361,2.496189284,2.292626527
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2001,2.417732053,2.508965919,2.297371085
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2015,2.427497419,2.565052784,2.287912374
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1992,2.433032053,2.539455999,2.324023356
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2002,2.439489715,2.526535746,2.30875281
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2017,2.453512761,2.677070946,2.190587355
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2003,2.458751833,2.555036234,2.331386252
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2004,2.466539285,2.562468553,2.333230581
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2016,2.467580264,2.635589512,2.310469722
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2017,2.4876519,2.664144482,2.304831412
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1993,2.49198538,2.595635393,2.378814311
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2005,2.493381264,2.585996906,2.356742714
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2006,2.494417312,2.586839383,2.349354847
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2018,2.511929226,2.751355482,2.233922279
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2007,2.513436901,2.606386724,2.363799198
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2018,2.532345109,2.748249123,2.331353497
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1994,2.538129811,2.6383439,2.422619673
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2008,2.54477398,2.643441742,2.39005316
+Deaths,Global,Both,All ages,Ovarian cancer,Rate,2019,2.564304784,2.813125863,2.266339991
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2009,2.566264215,2.66079559,2.39879268
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1995,2.576470508,2.674978392,2.457000491
+Deaths,Global,Both,All ages,Lip and oral cavity cancer,Rate,2019,2.577039921,2.818217186,2.347687426
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1996,2.597867622,2.695339717,2.485216649
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2010,2.604639507,2.704870889,2.443487194
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1990,2.610024036,3.407406802,2.241277067
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1991,2.618276771,3.446961822,2.244870483
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1997,2.619616723,2.715471838,2.508776011
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1992,2.628465129,3.368915169,2.261181161
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2011,2.629976518,2.734952419,2.455740866
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1998,2.640580715,2.734553883,2.525918841
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1993,2.650091483,3.360180319,2.271559206
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2001,2.654782927,2.752003766,2.540168159
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2002,2.655693012,2.754546396,2.539184678
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2012,2.658438335,2.761477624,2.491936661
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,1999,2.662287469,2.756230015,2.55086068
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2000,2.664361382,2.761943515,2.552039128
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2003,2.670492517,2.765278287,2.554430915
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2004,2.670804212,2.767546871,2.546205834
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1994,2.671839388,3.352274211,2.291020175
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2013,2.682036972,2.791578885,2.496453701
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1995,2.687997534,3.317969324,2.301540105
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1996,2.705159339,3.247279176,2.318509199
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2005,2.706301932,2.806616665,2.572395954
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2014,2.714769163,2.826956244,2.528622836
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1997,2.727179909,3.213210646,2.298124239
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2006,2.727633243,2.826736444,2.59926187
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1998,2.748683611,3.158017486,2.289973123
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2007,2.765101871,2.868629593,2.636859576
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2015,2.76822902,2.880605284,2.57417461
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,1999,2.776930799,3.19275102,2.317473196
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2000,2.807544011,3.168072136,2.326874956
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2016,2.807694114,2.940972841,2.604386666
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2001,2.81658207,3.171556817,2.324474829
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2008,2.822629892,2.931137876,2.685815363
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2002,2.828136063,3.15810351,2.321720282
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2003,2.828203473,3.140990479,2.31692404
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2004,2.839412713,3.129817349,2.316682008
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2017,2.841796527,2.978448036,2.635535686
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2005,2.859452449,3.157817625,2.317542624
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2006,2.865434007,3.122159257,2.297068264
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2009,2.868739212,2.97663937,2.724976211
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2007,2.880940215,3.141595165,2.288171276
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2018,2.896378723,3.068825513,2.663895857
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2008,2.912667226,3.176143335,2.293823718
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2010,2.921623703,3.032648772,2.772198745
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2009,2.936073401,3.182592614,2.323452826
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2010,2.954982541,3.199326101,2.313291662
+Deaths,Global,Both,All ages,Bladder cancer,Rate,2019,2.956194463,3.143058324,2.723672972
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2011,2.969956506,3.213779257,2.330398467
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2011,2.97005405,3.092971244,2.804162886
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2012,3.00023608,3.239106125,2.353230166
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2012,3.010915318,3.13770775,2.856433271
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2013,3.021491526,3.260646707,2.34182646
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2013,3.046227243,3.177842629,2.882043995
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2014,3.050547241,3.294148269,2.326144281
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2014,3.072597903,3.203332877,2.894002211
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2015,3.081643433,3.339581032,2.338156527
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2016,3.107424766,3.395806427,2.349129166
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2015,3.119247389,3.245200324,2.935272497
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2017,3.122906272,3.406472283,2.35336318
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2018,3.152152232,3.47152817,2.383108478
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2016,3.154778618,3.311089251,2.962791391
+Deaths,Global,Both,All ages,Brain and central nervous system cancer,Rate,2019,3.182609307,3.501533496,2.399259296
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2017,3.183246328,3.351681086,2.985144611
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2018,3.236601559,3.426309906,3.013132761
+Deaths,Global,Both,All ages,Non-Hodgkin lymphoma,Rate,2019,3.290670461,3.494071299,3.072250349
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1998,3.373835735,4.096951756,3.05062702
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1996,3.374660715,4.114725587,3.049700196
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1995,3.382965987,4.116138594,3.05098088
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1997,3.383264989,4.090713817,3.06301833
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1999,3.383722066,4.081532137,3.055724764
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2009,3.388006962,3.851102048,3.026124296
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2000,3.388853102,4.040470021,3.081007616
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2008,3.391875286,3.855901291,3.050447785
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2001,3.396712178,4.029228318,3.074233474
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2007,3.397069211,3.875132814,3.047175197
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2010,3.405209092,3.845103393,3.01955393
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1993,3.406455828,4.133880294,3.058663205
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1994,3.406906673,4.114070406,3.08602735
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1991,3.412383445,4.174788185,3.049258623
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1992,3.412811078,4.116254513,3.057998238
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2006,3.414186419,3.910848781,3.065425779
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2011,3.415896229,3.83118497,3.039205282
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2012,3.42298131,3.815636609,3.025509263
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2002,3.425661508,4.057924039,3.094048783
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2004,3.434016321,3.988408589,3.091223492
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2005,3.437905023,3.986291257,3.092614124
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2003,3.443055784,4.021567618,3.106631129
+Deaths,Global,Both,All ages,Cervical cancer,Rate,1990,3.449202465,4.092492187,3.081131573
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2013,3.46038346,3.817042917,3.03586392
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2014,3.509059608,3.87885042,3.063232606
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2015,3.563217155,3.934600226,3.059752181
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2016,3.599234296,3.935232548,3.078628576
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2017,3.604950065,3.971514189,3.103475868
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2018,3.611964191,4.027253979,3.109571852
+Deaths,Global,Both,All ages,Cervical cancer,Rate,2019,3.624947562,4.057268338,3.087108959
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1990,3.701991589,3.827446538,3.538958699
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1991,3.756948265,3.882087756,3.59260381
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1992,3.819598362,3.93997168,3.652717825
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1993,3.930014985,4.048678271,3.762320301
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1994,3.990356018,4.098980093,3.820491358
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1995,4.029781059,4.143107066,3.862357081
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1996,4.057513097,4.168314202,3.88988519
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1997,4.098159428,4.211190666,3.931866431
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1998,4.164246228,4.274292528,3.988033973
+Deaths,Global,Both,All ages,Leukemia,Rate,2014,4.255298169,4.499715544,3.91766598
+Deaths,Global,Both,All ages,Leukemia,Rate,2013,4.259640585,4.502722807,3.91123041
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,1999,4.261956442,4.37816662,4.085530133
+Deaths,Global,Both,All ages,Leukemia,Rate,2012,4.270382125,4.52143016,3.920011407
+Deaths,Global,Both,All ages,Leukemia,Rate,2015,4.271366653,4.520051054,3.93668622
+Deaths,Global,Both,All ages,Leukemia,Rate,2017,4.274381634,4.548982135,3.914765146
+Deaths,Global,Both,All ages,Leukemia,Rate,2016,4.27771867,4.537506594,3.916427159
+Deaths,Global,Both,All ages,Leukemia,Rate,2011,4.283835811,4.536859174,3.931399676
+Deaths,Global,Both,All ages,Leukemia,Rate,2010,4.287803484,4.553551079,3.941096466
+Deaths,Global,Both,All ages,Leukemia,Rate,2018,4.301011811,4.586023158,3.927454271
+Deaths,Global,Both,All ages,Leukemia,Rate,2009,4.301628746,4.56966248,3.950171412
+Deaths,Global,Both,All ages,Leukemia,Rate,2007,4.312506,4.61524339,3.965321433
+Deaths,Global,Both,All ages,Leukemia,Rate,2008,4.318789423,4.61853828,3.969258945
+Deaths,Global,Both,All ages,Leukemia,Rate,2019,4.324313879,4.655451302,3.96535171
+Deaths,Global,Both,All ages,Leukemia,Rate,2006,4.342763047,4.653010821,4.001854646
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2000,4.354634427,4.472113577,4.160935996
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1990,4.355243382,5.025979851,3.577629074
+Deaths,Global,Both,All ages,Leukemia,Rate,2005,4.389774968,4.717674363,4.035735565
+Deaths,Global,Both,All ages,Leukemia,Rate,2004,4.409205998,4.745284102,4.040846109
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1991,4.411531144,5.086615869,3.631277198
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2001,4.449784916,4.579086249,4.248359335
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1998,4.462979669,4.725314165,4.037452871
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1990,4.463369256,4.773945276,4.034248671
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1991,4.463870057,4.756069836,4.03910209
+Deaths,Global,Both,All ages,Leukemia,Rate,2003,4.464358012,4.830895286,4.105251776
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1992,4.467427389,4.756651262,4.054408599
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1997,4.467795749,4.734150661,4.042580956
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1999,4.473783573,4.755176702,4.063329013
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1992,4.47395973,5.123712295,3.635690291
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1996,4.477401391,4.753313997,4.0678413
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1993,4.483873945,4.773821222,4.073146522
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1995,4.489622679,4.769621832,4.084242791
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2000,4.491274163,4.761417587,4.068063321
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,1994,4.495167355,4.772116671,4.09646937
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2001,4.495517792,4.767968704,4.076039502
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2002,4.508567066,4.769129038,4.091588228
+Deaths,Global,Both,All ages,Leukemia,Rate,2002,4.520780967,4.912243597,4.131616314
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2003,4.520995148,4.784146864,4.104148914
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1993,4.548046335,5.151855664,3.669917564
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2004,4.559614099,4.837645,4.107645085
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2002,4.574791595,4.716427871,4.355002499
+Deaths,Global,Both,All ages,Leukemia,Rate,2001,4.5817275,4.984253078,4.180456018
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1994,4.609138921,5.282018771,3.726108078
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2005,4.619595938,4.898577218,4.15550905
+Deaths,Global,Both,All ages,Leukemia,Rate,2000,4.62876709,5.066761906,4.20007981
+Deaths,Global,Both,All ages,Leukemia,Rate,1999,4.657846512,5.109886379,4.224406072
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2006,4.665391399,4.954434559,4.175454034
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1995,4.666249138,5.254781591,3.738140869
+Deaths,Global,Both,All ages,Leukemia,Rate,1998,4.670173409,5.147617172,4.228354813
+Deaths,Global,Both,All ages,Leukemia,Rate,1997,4.691198407,5.164480506,4.239482972
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2003,4.692483928,4.838064235,4.471248961
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2007,4.709809385,5.007631901,4.197913975
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1996,4.722227945,5.315376214,3.8005842
+Deaths,Global,Both,All ages,Leukemia,Rate,1996,4.730166442,5.232994203,4.272786086
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2008,4.767053918,5.062708592,4.232013554
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1997,4.768990542,5.371937259,3.844981414
+Deaths,Global,Both,All ages,Leukemia,Rate,1995,4.782235924,5.287193778,4.337427175
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2004,4.787138136,4.938920879,4.550455205
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2009,4.801473968,5.100198237,4.243194031
+Deaths,Global,Both,All ages,Leukemia,Rate,1994,4.806285592,5.342018509,4.331608128
+Deaths,Global,Both,All ages,Leukemia,Rate,1993,4.821433982,5.383405489,4.322636793
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1998,4.821951544,5.421921656,3.901974173
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2010,4.836203492,5.134561122,4.28754607
+Deaths,Global,Both,All ages,Leukemia,Rate,1992,4.844224583,5.439402683,4.319826139
+Deaths,Global,Both,All ages,Prostate cancer,Rate,1999,4.868091553,5.540316782,3.946773643
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2011,4.873999677,5.181001075,4.323089086
+Deaths,Global,Both,All ages,Leukemia,Rate,1991,4.880378419,5.504365316,4.330942812
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2012,4.911404337,5.227940936,4.339791894
+Deaths,Global,Both,All ages,Leukemia,Rate,1990,4.920942512,5.583264077,4.367678358
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2000,4.923874421,5.547979446,4.006495716
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2005,4.930546921,5.089363397,4.684952497
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2013,4.959884705,5.291216089,4.369487575
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2001,4.982163136,5.614138599,4.059199563
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2014,5.002831373,5.346312915,4.378860981
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2006,5.017442866,5.175547346,4.749346038
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2015,5.049249787,5.411915627,4.428822076
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2002,5.053403545,5.73140205,4.120034478
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2016,5.09299911,5.489054889,4.474776117
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2003,5.096413035,5.847881525,4.200231799
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2004,5.128724354,5.874956377,4.220578692
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2017,5.139952855,5.536114381,4.486376806
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2007,5.140641196,5.316094681,4.879200958
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2005,5.178091768,6.011512866,4.301922836
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2018,5.203069664,5.638806297,4.533137086
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2006,5.216773416,6.065338703,4.319563834
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2007,5.251389239,6.150726072,4.357245536
+Deaths,Global,Both,All ages,Other malignant neoplasms,Rate,2019,5.275204568,5.73285899,4.588747965
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2008,5.28966353,5.475805641,5.009049729
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2008,5.310700151,6.251580754,4.398474344
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2009,5.351997737,6.33334679,4.525688774
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2010,5.408441109,6.431555931,4.565248762
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2009,5.419296649,5.603506798,5.110626826
+Deaths,Global,Both,All ages,Liver cancer,Rate,2006,5.434957935,5.664042187,5.189507718
+Deaths,Global,Both,All ages,Liver cancer,Rate,2007,5.441877762,5.669992563,5.197056198
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2011,5.464670643,6.571287033,4.697627197
+Deaths,Global,Both,All ages,Liver cancer,Rate,2005,5.468659858,5.731671943,5.23000052
+Deaths,Global,Both,All ages,Liver cancer,Rate,2008,5.518519426,5.751200616,5.242345316
+Deaths,Global,Both,All ages,Liver cancer,Rate,2009,5.521843127,5.765491757,5.242132831
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2012,5.523499074,6.69463966,4.735367747
+Deaths,Global,Both,All ages,Liver cancer,Rate,2010,5.529183487,5.796175317,5.243308443
+Deaths,Global,Both,All ages,Liver cancer,Rate,2011,5.530882589,5.813926116,5.224764849
+Deaths,Global,Both,All ages,Liver cancer,Rate,2012,5.562628992,5.83741835,5.28790363
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2010,5.570039363,5.777880871,5.250200052
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2013,5.593321387,6.813340807,4.813802241
+Deaths,Global,Both,All ages,Liver cancer,Rate,2004,5.602111889,5.858502806,5.342120617
+Deaths,Global,Both,All ages,Liver cancer,Rate,2013,5.642462008,5.947774286,5.322163283
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2014,5.675964129,6.920526031,4.882668418
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2011,5.689915695,5.928530346,5.342349686
+Deaths,Global,Both,All ages,Liver cancer,Rate,2014,5.761543038,6.064353555,5.450115055
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2015,5.778491495,7.047363842,4.978923372
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2012,5.818650382,6.055364943,5.471475098
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2016,5.88474794,7.251703187,5.080639306
+Deaths,Global,Both,All ages,Liver cancer,Rate,2015,5.892448106,6.212540918,5.561618201
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2013,5.930122155,6.168712026,5.564975239
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1990,5.968985286,6.557225508,4.648095718
+Deaths,Global,Both,All ages,Liver cancer,Rate,2003,5.969715031,6.257766714,5.685724417
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2017,5.997534561,7.354798505,5.154345686
+Deaths,Global,Both,All ages,Liver cancer,Rate,2016,5.999450783,6.395305311,5.611833239
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1991,6.019481855,6.57772591,4.72895075
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2014,6.050289652,6.305660262,5.670991389
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1992,6.058554159,6.613727476,4.688171675
+Deaths,Global,Both,All ages,Liver cancer,Rate,2017,6.080544445,6.507028462,5.621386313
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2015,6.087694736,6.599189387,5.447944645
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2014,6.100692552,6.562101582,5.397817508
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2016,6.124096439,6.660355958,5.471846374
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1993,6.127604059,6.642995428,4.717361061
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1994,6.136255406,6.655052489,4.796907676
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2018,6.138819772,7.459875581,5.27898567
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1995,6.151215299,6.618593071,4.764241201
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2013,6.158529868,6.594060474,5.38787682
+Deaths,Global,Both,All ages,Liver cancer,Rate,2018,6.15991234,6.651081157,5.66683264
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2017,6.172822385,6.692945368,5.473580367
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1996,6.180571485,6.676260898,4.788244114
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2015,6.207663339,6.492249151,5.814074807
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1997,6.222997054,6.662441041,4.800451411
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2012,6.260374718,6.703523505,5.418570512
+Deaths,Global,Both,All ages,Liver cancer,Rate,2019,6.262731584,6.795476439,5.739494483
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2018,6.288925939,6.930479513,5.61553338
+Deaths,Global,Both,All ages,Prostate cancer,Rate,2019,6.291932699,7.672911922,5.434571589
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1998,6.293897882,6.763829992,4.77709071
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2016,6.337333036,6.66530956,5.905968207
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2011,6.365887618,6.834694862,5.374553434
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,1999,6.415745404,6.896810221,4.82744821
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2019,6.437083557,7.127161479,5.666085038
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2017,6.465898092,6.807489041,6.046035314
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2010,6.484804024,6.936267335,5.236457425
+Deaths,Global,Both,All ages,Liver cancer,Rate,2002,6.488514338,6.856364533,6.1329516
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2009,6.568004678,7.014786501,5.21256828
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2000,6.60016483,7.131686433,4.900809407
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2018,6.664516547,7.082875171,6.196887639
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2008,6.684848899,7.175448676,5.143663411
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2001,6.75184051,7.303979835,4.885120198
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2007,6.802728612,7.316701388,5.104178141
+Deaths,Global,Both,All ages,Liver cancer,Rate,1990,6.826642019,7.584767473,6.167785243
+Deaths,Global,Both,All ages,Pancreatic cancer,Rate,2019,6.864097491,7.321996025,6.358002502
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2002,6.922780377,7.489819441,4.993959452
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2006,6.960970356,7.484176005,5.093513957
+Deaths,Global,Both,All ages,Liver cancer,Rate,1991,7.045488712,7.813032331,6.408261609
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2003,7.081627809,7.679663329,5.043057315
+Deaths,Global,Both,All ages,Breast cancer,Rate,1990,7.11992603,7.415420275,6.819159033
+Deaths,Global,Both,All ages,Liver cancer,Rate,2001,7.132271285,7.582570641,6.668084922
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2005,7.157260702,7.752098872,5.11705272
+Deaths,Global,Both,All ages,Breast cancer,Rate,1991,7.157999928,7.463215903,6.85459553
+Deaths,Global,Both,All ages,Esophageal cancer,Rate,2004,7.18935156,7.78345676,5.063112119
+Deaths,Global,Both,All ages,Breast cancer,Rate,1992,7.222393468,7.510190095,6.909202607
+Deaths,Global,Both,All ages,Liver cancer,Rate,1992,7.247480012,7.928369401,6.633262661
+Deaths,Global,Both,All ages,Breast cancer,Rate,1993,7.356322751,7.636779901,7.074010678
+Deaths,Global,Both,All ages,Breast cancer,Rate,1994,7.433952974,7.695502565,7.133966758
+Deaths,Global,Both,All ages,Liver cancer,Rate,1993,7.459005123,8.093401266,6.868520904
+Deaths,Global,Both,All ages,Breast cancer,Rate,1995,7.465336968,7.742167967,7.164401117
+Deaths,Global,Both,All ages,Breast cancer,Rate,1996,7.477462641,7.747102919,7.171008691
+Deaths,Global,Both,All ages,Breast cancer,Rate,1997,7.497838002,7.771021767,7.198683263
+Deaths,Global,Both,All ages,Breast cancer,Rate,1998,7.523179922,7.792744163,7.22001201
+Deaths,Global,Both,All ages,Breast cancer,Rate,1999,7.598924995,7.885854826,7.265547557
+Deaths,Global,Both,All ages,Breast cancer,Rate,2000,7.627896559,7.90212043,7.314459968
+Deaths,Global,Both,All ages,Liver cancer,Rate,2000,7.638027055,8.10562047,7.174259011
+Deaths,Global,Both,All ages,Breast cancer,Rate,2001,7.661012784,7.923544033,7.339733785
+Deaths,Global,Both,All ages,Liver cancer,Rate,1994,7.666534697,8.237081239,7.133323884
+Deaths,Global,Both,All ages,Breast cancer,Rate,2002,7.721134889,8.002923936,7.375185917
+Deaths,Global,Both,All ages,Breast cancer,Rate,2004,7.73498026,7.998757131,7.382091421
+Deaths,Global,Both,All ages,Breast cancer,Rate,2003,7.753332703,8.022599758,7.412540815
+Deaths,Global,Both,All ages,Breast cancer,Rate,2005,7.798785409,8.065671897,7.430198589
+Deaths,Global,Both,All ages,Breast cancer,Rate,2006,7.79988433,8.072080471,7.423227171
+Deaths,Global,Both,All ages,Liver cancer,Rate,1995,7.828126061,8.361238078,7.321439025
+Deaths,Global,Both,All ages,Breast cancer,Rate,2007,7.840117071,8.107048672,7.464157366
+Deaths,Global,Both,All ages,Liver cancer,Rate,1999,7.904216436,8.354596331,7.446196674
+Deaths,Global,Both,All ages,Breast cancer,Rate,2008,7.91921706,8.206374223,7.51691323
+Deaths,Global,Both,All ages,Liver cancer,Rate,1996,7.931242769,8.459298092,7.427053016
+Deaths,Global,Both,All ages,Liver cancer,Rate,1997,7.941334164,8.423610185,7.504816826
+Deaths,Global,Both,All ages,Liver cancer,Rate,1998,7.949749067,8.441635857,7.501528684
+Deaths,Global,Both,All ages,Breast cancer,Rate,2009,7.975987297,8.286786618,7.567089636
+Deaths,Global,Both,All ages,Breast cancer,Rate,2010,8.080816773,8.392977095,7.668852941
+Deaths,Global,Both,All ages,Breast cancer,Rate,2011,8.163006647,8.489811526,7.720970224
+Deaths,Global,Both,All ages,Breast cancer,Rate,2012,8.222308552,8.544815108,7.77220634
+Deaths,Global,Both,All ages,Breast cancer,Rate,2013,8.326119139,8.691790905,7.826457263
+Deaths,Global,Both,All ages,Breast cancer,Rate,2014,8.447396753,8.832187877,7.984323258
+Deaths,Global,Both,All ages,Breast cancer,Rate,2015,8.614787384,9.03124823,8.102766791
+Deaths,Global,Both,All ages,Breast cancer,Rate,2016,8.716044267,9.19216304,8.178113836
+Deaths,Global,Both,All ages,Breast cancer,Rate,2017,8.793418555,9.326028502,8.182118973
+Deaths,Global,Both,All ages,Breast cancer,Rate,2018,8.924621587,9.499282032,8.272880233
+Deaths,Global,Both,All ages,Breast cancer,Rate,2019,9.055420187,9.713195684,8.36687261
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1990,9.684876013,10.05405272,9.227969067
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1991,9.750100869,10.11688077,9.286245969
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1992,9.847066045,10.19548291,9.402102048
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1993,10.05177605,10.382291,9.633582497
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1994,10.14044909,10.46123314,9.678607954
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1995,10.19801721,10.53558233,9.75035882
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1996,10.21925076,10.53447238,9.759764631
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1997,10.2667246,10.5799217,9.81639228
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1998,10.37991891,10.70357207,9.901927039
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,1999,10.59024063,10.92230686,10.10107404
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2000,10.76222429,11.11914389,10.24426214
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2001,10.91968555,11.28140905,10.35006797
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2002,11.15432351,11.54276329,10.57326205
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2003,11.35794014,11.77135956,10.78385564
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2004,11.47326267,11.90161765,10.86795491
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2005,11.67287672,12.10971014,11.04266555
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2006,11.69691283,12.13297727,11.06329485
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2007,11.82204378,12.28477837,11.14689526
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2008,12.01464846,12.50583424,11.34574773
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2009,12.12977205,12.59290126,11.41510681
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2017,12.21127732,13.05002541,11.27489348
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2018,12.25504338,13.29664773,11.23046209
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2010,12.27664531,12.7702862,11.53913959
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2016,12.27856735,13.16268826,11.33019936
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2015,12.29002209,13.03724025,11.47506111
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2019,12.37078558,13.37189973,11.25625977
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2014,12.37473673,13.10844189,11.59031946
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2011,12.38543898,12.92123891,11.61167863
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2012,12.50231328,13.0422464,11.70433378
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2013,12.55479393,13.25700815,11.75485546
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2013,12.59772528,13.15247836,11.7893466
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2014,12.71504136,13.29184886,11.90482778
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2012,12.788656,13.52963306,12.0289498
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2015,12.93838439,13.52461102,12.09304027
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2011,12.98299299,13.72763891,12.15601386
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2016,13.12626731,13.81829808,12.20456452
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2010,13.19952863,13.8793116,12.44755169
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2009,13.32695712,13.99083014,12.55350316
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2017,13.32738198,14.03026936,12.40124012
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2008,13.51021374,14.1796634,12.73634544
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1998,13.53330572,14.15993639,12.91834271
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1997,13.60358222,14.21715669,12.99551397
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1999,13.62510751,14.23758642,13.0067454
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2007,13.66866301,14.33839485,12.92288617
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2018,13.6744349,14.49826891,12.62334859
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2000,13.7953897,14.47759529,13.18274601
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1996,13.79996736,14.43064467,13.18132503
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2001,13.92083113,14.59138269,13.22250869
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2006,13.95572095,14.63554204,13.21254074
+Deaths,Global,Both,All ages,Colon and rectum cancer,Rate,2019,14.03298822,14.85859512,12.96025843
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1995,14.05449307,14.76908871,13.39819066
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2002,14.1731602,14.90607281,13.43614214
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1994,14.28447684,15.01860543,13.60515921
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2003,14.39222776,15.0987149,13.70014417
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2005,14.41948636,15.18657508,13.71416611
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1992,14.44199321,15.20158822,13.65248448
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1993,14.44368808,15.17801186,13.75336284
+Deaths,Global,Both,All ages,Stomach cancer,Rate,2004,14.51387934,15.25736738,13.77280293
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1991,14.56096584,15.38411927,13.75883082
+Deaths,Global,Both,All ages,Stomach cancer,Rate,1990,14.73531593,15.58920565,13.88426177
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1990,19.90970673,20.88249141,19.05132389
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1991,20.02933407,20.9353458,19.09896523
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1992,20.1998325,21.03005973,19.36609019
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1993,20.5771315,21.35151436,19.83233772
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1994,20.73523191,21.43842052,19.98648725
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1997,20.81382776,21.45606213,20.10439583
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1996,20.82549534,21.49004162,20.11748206
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1995,20.85095496,21.51588001,20.08726575
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1998,20.92084821,21.58226628,20.19347655
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,1999,21.1953306,21.86728167,20.48574853
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2000,21.46534262,22.15872895,20.7083095
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2001,21.61750821,22.37389129,20.7577317
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2002,21.91071239,22.72775171,21.04738711
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2003,22.150015,23.00068653,21.30559796
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2004,22.36431288,23.20915903,21.42849315
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2005,22.64225279,23.56085157,21.77369602
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2006,22.66015926,23.44618742,21.70208498
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2007,22.92948707,23.78325183,21.92312466
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2008,23.32683633,24.17820538,22.24317419
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2009,23.63703583,24.53130864,22.48691289
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2010,23.91110753,24.8636423,22.79058437
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2011,24.10398654,25.19552102,22.78336972
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2012,24.26065568,25.38434597,23.0857657
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2013,24.38389495,25.57250966,22.97110361
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2014,24.55981792,25.80133327,23.20568522
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2015,24.84168942,26.08425369,23.46285556
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2016,25.07451862,26.64969631,23.44913678
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2017,25.34829575,26.81207393,23.68975785
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2018,25.84410454,27.7083121,23.963063
+Deaths,Global,Both,All ages,"Tracheal, bronchus, and lung cancer",Rate,2019,26.39934185,28.34609371,24.28755841
