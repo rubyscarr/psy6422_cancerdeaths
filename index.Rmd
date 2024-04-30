@@ -1,0 +1,371 @@
+---
+title: "Global Death Rates of Different Types of Cancers, 1990-2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+### PSY6422
+
+```{r set-CRAN-mirror, echo=FALSE, message=FALSE, warning=FALSE}
+# Set CRAN mirror
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+```
+
+<br>
+
+# Project Background and Data 
+
+### Project Aim and Research Question
+This project aimed to investigate changes in the death rate (per 100,000 people) for multiple different types of cancer globally. 
+
+Specifically, it aimed to visualise any dramatic changes or trends in these death rates. As a result of this original visualisation, a further two visualisations were produced in order to investigate whether or not these trends that were found changed significantly when looking at just the male or female figures. 
+
+### Data Origins
+The public domain data used in this project was taken from [The Global Burden of Disease Study (2019)](https://vizhub.healthdata.org/gbd-results/), collected by The Institute for Health Metrics and Evaluation. From this I was able to download data on the global death rates of every type of cancer between 1990-2019 for both sexes. 
+
+### Project Organisation
+I created three different scripts for each visualisation for better organisation.
+All of the outputs are saved in the figs folder, and the raw data is saved in the data folder.
+There is also a codebook included that details the variables used in the datasets. 
+
+<br>
+
+# Data Preparation 
+
+### Loading Packages
+
+This project has used the renv package in order to ensure anybody running this project
+will use the same versions of the packages.
+
+```{r libraries, echo=TRUE, message=FALSE, warning=FALSE, results='hide'}
+#load the renv package
+install.packages ("renv")
+library(renv)
+renv::snapshot()
+#restore the project environment 
+renv::restore()
+
+#load other packages
+library(here) #for setting working directory
+library(tidyverse) #for data preparation
+library(dplyr) #for data manipulation
+library(ggplot2) #to make graphs
+library(plotly) #to make interactive graphs
+library(ggtext) #for formatting labels
+```
+
+### Importing the data
+
+```{r loading data, echo=TRUE, message=FALSE, warning=FALSE}
+#load data needed for all 3 visualisations
+all_data <- read.csv(here("DATA", "cancer_data.csv"))
+female_data <- read.csv(here("DATA", "female_data.csv"))
+male_data <- read.csv(here( "DATA", "male_data.csv"))
+```
+
+The first 6 rows of the first dataset displayed in order to check it imported correctly
+
+```{r checking data import,echo=TRUE,message=FALSE,warning=FALSE}
+#Print the first few rows of data
+print(head(all_data))
+```
+
+### Data Wrangling
+
+```{r data cleanup, echo=TRUE, warning=FALSE, message=FALSE}
+# Remove certain columns from each dataset as these are not needed
+new_all_data <- all_data%>%
+  select(-upper, -lower, - age, - sex, -location, -metric)
+
+new_female_data <- female_data%>%
+  select(-measure_id, -measure_name, -location_id, -location_name, -sex_id, -sex_name
+         , -age_id, -age_name, -cause_id, -metric_id, -metric_name, -upper, -lower) 
+
+new_male_data <- male_data%>%
+  select(-measure_id, -measure_name, -location_id, -location_name, -sex_id, -sex_name
+         , -age_id, -age_name, -cause_id, -metric_id, -metric_name, -upper, -lower)
+
+
+#rename columns and remove rows that are not needed
+#For my first visualisation I removed 19 of the 30 cancers included in the original dataset in order to make the visualisation both more relevant and easier to read
+#I determined this by removing any cancer that had a death rate for all years of under 3.3
+
+new_all_data <- new_all_data %>%
+  rename(Cancer_Type = cause, Year = year, Death_Rate = val)
+
+new_female_data <- new_female_data %>%
+  rename(Cancer_Type = cause_name, Year = year, Death_Rate = val)
+
+new_male_data <- new_male_data %>%
+  rename(Cancer_Type = cause_name, Year = year, Death_Rate = val)
+
+new_all_data <- subset(new_all_data, 
+                       Cancer_Type != "Other neoplasms" &
+                         Cancer_Type != "Hodgkin lymphoma" &
+                         Cancer_Type != "Mesothelioma" &
+                         Cancer_Type != "Testicular cancer" &
+                         Cancer_Type != "Malignant skin melanoma" &
+                         Cancer_Type != "Other pharynx cancer" &
+                         Cancer_Type != "Larynx cancer" &
+                         Cancer_Type != "Multiple myeloma" &
+                         Cancer_Type != "Nasopharynx cancer" &
+                         Cancer_Type != "Thyroid cancer" &
+                         Cancer_Type != "Non-melanoma skin cancer" &
+                         Cancer_Type != "Uterine cancer" &
+                         Cancer_Type != "Kidney cancer" &
+                         Cancer_Type != "Gallbladder and biliary tract cancer"&
+                         Cancer_Type != "Lip and oral cavity cancer"&
+                         Cancer_Type != "Ovarian cancer"&
+                         Cancer_Type != "Bladder cancer"&
+                         Cancer_Type != "Non-Hodgkin lymphoma"&
+                         Cancer_Type != "Brain and central nervous system cancer")
+
+
+#for visualisations 2 and 3 I removed an extra 9 cancers in order to only focus on the 3 I wanted to look at
+#I used a transformation function so that I could apply it to both the female and male datasets 
+
+transform_data <- function(data) {data <- data %>%
+  filter(
+                         Cancer_Type != "Other neoplasms" &
+                         Cancer_Type != "Hodgkin lymphoma" &
+                         Cancer_Type != "Mesothelioma" &
+                         Cancer_Type != "Testicular cancer" &
+                         Cancer_Type != "Malignant skin melanoma" &
+                         Cancer_Type != "Other pharynx cancer" &
+                         Cancer_Type != "Larynx cancer" &
+                         Cancer_Type != "Multiple myeloma" &
+                         Cancer_Type != "Nasopharynx cancer" &
+                         Cancer_Type != "Thyroid cancer" &
+                         Cancer_Type != "Non-melanoma skin cancer" &
+                         Cancer_Type != "Uterine cancer" &
+                         Cancer_Type != "Kidney cancer" &
+                         Cancer_Type != "Gallbladder and biliary tract cancer"&
+                         Cancer_Type != "Lip and oral cavity cancer"&
+                         Cancer_Type != "Ovarian cancer"&
+                         Cancer_Type != "Bladder cancer"&
+                         Cancer_Type != "Non-Hodgkin lymphoma"&
+                         Cancer_Type != "Brain and central nervous system cancer"&
+                         Cancer_Type != "Pancreatic cancer"&
+                         Cancer_Type != "Cervical cancer"&
+                         Cancer_Type != "Leukemia"&
+                         Cancer_Type != "Prostate cancer"&
+                         Cancer_Type != "Other malignant neoplasms"&
+                         Cancer_Type != "Liver cancer"&
+                         Cancer_Type != "Esophageal cancer"&
+                         Cancer_Type != "Breast cancer")
+                        
+        
+return(data)
+}
+
+
+#apply the transformation function to both the datasets 
+new_female_data <- transform_data(new_female_data)
+new_male_data <- transform_data(new_male_data)
+
+```
+<br>
+
+# Visualisations 
+
+### Visualisation 1
+
+For my first visualisation I used the first dataset which contained the death rates for 
+11 different types of cancer between 1990-2019 for both of the sexes. 
+
+This allowed me to visualise any dramatic changes in these death rates across the 30 year period. 
+
+```{r visualisation 1, echo=TRUE, warning=FALSE, message=FALSE}
+#factor the variable "Cancer Type" in order to create defined levels 
+new_all_data$Cancer_Type <- factor(new_all_data$Cancer_Type)
+
+# Change levels of Cancer_Type Variable
+new_all_data$Cancer_Type <- factor(new_all_data$Cancer_Type, levels = unique(new_all_data$Cancer_Type))
+
+#plot a standard line graph
+#add appropriate title and labels
+p <- ggplot(new_all_data, aes(x = Year, y = Death_Rate, color = Cancer_Type)) + 
+  geom_line() + labs(
+    x = "Year", 
+    y = "Death Rate (Per 100,000)", 
+    color = "Cancer Type",
+    title ="Changing Death Rates of Different Types of Cancer: 1990-2019\n<span style='font-size: 12; font-style: italic'>Institute for Health Metrics and Evaluation</span>") + 
+  scale_y_continuous(breaks = seq(0, 35, by = 5), labels = seq(0, 35, by = 5)) +
+  theme_minimal() 
+
+#Change the aesthetics (font, font size, position) of the title, legend and labels
+p <- p +
+  theme(
+    text = element_text(family = "helvetica"),
+    legend.text = element_text(size = 9),
+    legend.title = element_text(face = "bold", size = 15),
+    plot.title = element_text(size = 13, face = "bold",  hjust = 0.5, vjust = 1),
+    axis.title.x = element_text(face = "bold", size = 12), 
+    axis.title.y = element_text(face = "bold", size = 12)
+  )
+
+
+#change the colour of the plot lines  
+colours <- c("red","brown", "cornflowerblue","chartreuse2", "orange", "black","darkred","lightblue",
+             "darkblue", "darkgreen","hotpink", "purple")
+
+p <- p + scale_color_manual(values = colours) 
+
+# Make the line graph interactive and specify the width using the plotly package
+ip <- ggplotly(p, width = 1000, height = 700, tooltip =  c("Year", "Death_Rate", "Cancer_Type"),
+               labels = c("Year", "Death Rate", "Cancer Type"))
+
+
+ip
+
+```
+
+The final output is saved in the 'figs' folder
+```{r saving graph, warning=FALSE, message=FALSE}
+# Save interactive plot as an html
+htmlwidgets::saveWidget(ip, file = "../figs/All_Cancer_Deaths.html")
+```
+
+<br>
+
+This showed a clear steady increase in the death rate of tracheal, bronchus and lung cancer
+between 1990 and 2019, with this remaining the leading cause in deaths attributed to cancer. 
+
+It also showcased an interesting occurrence taking place in which the death rate of colon and rectum cancer can be seen steadily increasing, whilst stomach cancer eventually decreases until they crossover in 2013. After which, colon and rectum cancer continuous to rise and take the place for second leading cause of cancer-attributed deaths worldwide. 
+
+As a result of this finding I was interested to look further and see what would happen if I broke the data down between male and female death rates for these top three cancers. 
+
+<br>
+
+### Visualisation 2 - Female Data
+
+```{r visualisation 2, echo=TRUE, warning=FALSE, message=FALSE}
+#factor the variable "Cancer Type" in order to create defined levels 
+new_female_data$Cancer_Type <- factor(new_female_data$Cancer_Type)
+
+# Change levels of Cancer_Type Variable
+new_female_data$Cancer_Type <- factor(new_female_data$Cancer_Type, levels = unique(new_female_data$Cancer_Type))
+
+#plot a standard line graph
+#add appropriate title and labels
+p <- ggplot(new_female_data, aes(x = Year, y = Death_Rate, color = Cancer_Type)) + 
+  geom_line() + labs(
+    x = "Year", 
+    y = "Death Rate (Per 100,000)", 
+    color = "Cancer Type",
+    title ="Changing Death Rates of Different Types of Cancer in Females: 1990-2019\n<span style='font-size: 12; font-style: italic'>Institute for Health Metrics and Evaluation</span>") + 
+  scale_y_continuous(breaks = seq(0, 35, by = 5), labels = seq(0, 35, by = 5)) +
+  theme_minimal() 
+
+#Change the aesthetics (font, font size, position) of the title, legend and labels
+p <- p +
+  theme(
+    text = element_text(family = "helvetica"),
+    legend.text = element_text(size = 9),
+    legend.title = element_text(face = "bold", size = 15),
+    plot.title = element_text(size = 13, face = "bold",  hjust = 0.5, vjust = 1),
+    axis.title.x = element_text(face = "bold", size = 12), 
+    axis.title.y = element_text(face = "bold", size = 12)
+  )
+
+
+# Define custom colors for each cancer type in order to match the colours of visualisation 1
+custom_colours <- c("Stomach cancer" = "darkgreen", "Tracheal, bronchus, and lung cancer" = "hotpink", "Colon and rectum cancer" = "darkblue")
+                   
+
+
+p <- p + scale_color_manual(values = custom_colours) 
+
+# Make the line graph interactive and specify the width using the plotly package
+ip <- ggplotly(p, width = 1000, height = 700, tooltip =  c("Year", "Death_Rate", "Cancer_Type"),
+               labels = c("Year", "Death Rate", "Cancer Type"))
+
+
+ip
+
+```
+
+The final output is saved in the 'figs' folder
+```{r echo=TRUE, warning=FALSE, message=FALSE}
+# Save interactive plot as an html
+htmlwidgets::saveWidget(ip, file = "../figs/Female_Cancer_Deaths.html")
+```
+
+<br>
+
+### Visualisation 3 - Male Data
+
+
+```{r visualisation 3, echo=TRUE, warning=FALSE, message=FALSE}
+#factor the variable "Cancer Type" in order to create defined levels 
+new_male_data$Cancer_Type <- factor(new_male_data$Cancer_Type)
+
+# Change levels of Cancer_Type Variable
+new_male_data$Cancer_Type <- factor(new_male_data$Cancer_Type, levels = unique(new_male_data$Cancer_Type))
+
+#plot a standard line graph
+#add appropriate title and labels
+p <- ggplot(new_male_data, aes(x = Year, y = Death_Rate, color = Cancer_Type)) + 
+  geom_line() + labs(
+    x = "Year", 
+    y = "Death Rate (Per 100,000)", 
+    color = "Cancer Type",
+    title ="Changing Death Rates of Different Types of Cancer in Males: 1990-2019\n<span style='font-size: 12; font-style: italic'>Institute for Health Metrics and Evaluation</span>") + 
+  scale_y_continuous(breaks = seq(0, 35, by = 5), labels = seq(0, 35, by = 5)) +
+  theme_minimal() 
+
+#Change the aesthetics (font, font size, position) of the title, legend and labels
+p <- p +
+  theme(
+    text = element_text(family = "helvetica"),
+    legend.text = element_text(size = 9),
+    legend.title = element_text(face = "bold", size = 15),
+    plot.title = element_text(size = 13, face = "bold",  hjust = 0.5, vjust = 1),
+    axis.title.x = element_text(face = "bold", size = 12), 
+    axis.title.y = element_text(face = "bold", size = 12)
+  )
+
+
+# Define custom colors for each cancer type in order to match the colours of visualisation 1
+custom_colours <- c("Stomach cancer" = "darkgreen", "Tracheal, bronchus, and lung cancer" = "hotpink", "Colon and rectum cancer" = "darkblue")
+                  
+
+p <- p + scale_color_manual(values = custom_colours) 
+
+# Make the line graph interactive and specify the width using the plotly package
+ip <- ggplotly(p, width = 1000, height = 700, tooltip =  c("Year", "Death_Rate", "Cancer_Type"),
+               labels = c("Year", "Death Rate", "Cancer Type"))
+
+
+ip
+
+```
+
+The final output is saved in the 'figs' folder
+```{r echo=TRUE, warning=FALSE, message=FALSE}
+# Save interactive plot as an html
+htmlwidgets::saveWidget(ip, file = "../figs/Male_Cancer_Deaths.html")
+```
+<br>
+
+
+# Summary
+
+### Interpretations
+
+The analysis of the male and female death rates (1990-2019) of stomach cancer, colon and rectum cancer, and tracheal, bronchus and lung cancer have revealed slightly more insight into the changes observed in visualisation 1. From 1990 to 2012, stomach cancer continuously displayed higher death rates than colon cancer in both males and females, with varying but consistent gaps between the two. However, a significant shift occurred in 2013 for females and 2012 for males when colon cancer overtook stomach cancer as the second leading cause of death. This crossover suggests that there may be potential gender-specific factors influencing cancer prevalence and mortality rates. Such factors could include differences in hormone levels, lifestyle behaviors, access to healthcare, and screening practices. These factors may then contribute to variations in cancer incidence and outcomes between males and females, highlighting the importance of tailored healthcare strategies and interventions.
+
+
+### Future Research
+
+The findings of this project could be expanded upon using more advanced statistical analyses of the data, exploring potential associations between these cancer death rates and some of the risk factors stated above. For example, possible relationships between factors such as gender-specific healthcare access and lifestyle differences, and subsequent differences in these cancer death rates could be investigated. 
+
+Furthermore, it could also be useful to break down the data even further and look at how these trends may change dependent on the region. This data encompasses global cancer death rates but is able to be broken down by continent or country. This could reveal interesting insight into how geographical location may shape these trends. 
+
+
+<br>
+
+# References
+
+Gbd results. (n.d.). Institute for Health Metrics and Evaluation. Retrieved 30 April 2024, from https://vizhub.healthdata.org/gbd-results
+
